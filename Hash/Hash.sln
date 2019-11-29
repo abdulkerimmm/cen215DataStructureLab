@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hash", "Hash\Hash.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleHashing", "SimpleHashing\SimpleHashing.vcxproj", "{B5B1CDA1-8F52-4001-975C-9BC21A170C7C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenHashing", "OpenHashing\OpenHashing.vcxproj", "{FAA15CE6-3253-4143-8497-6DBD121BE0AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClosedHashing", "ClosedHashing\ClosedHashing.vcxproj", "{6964B1BD-50C2-4DA9-854D-26F025F63E41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +35,22 @@ Global
 		{B5B1CDA1-8F52-4001-975C-9BC21A170C7C}.Release|x64.Build.0 = Release|x64
 		{B5B1CDA1-8F52-4001-975C-9BC21A170C7C}.Release|x86.ActiveCfg = Release|Win32
 		{B5B1CDA1-8F52-4001-975C-9BC21A170C7C}.Release|x86.Build.0 = Release|Win32
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Debug|x64.ActiveCfg = Debug|x64
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Debug|x64.Build.0 = Debug|x64
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Debug|x86.Build.0 = Debug|Win32
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Release|x64.ActiveCfg = Release|x64
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Release|x64.Build.0 = Release|x64
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Release|x86.ActiveCfg = Release|Win32
+		{FAA15CE6-3253-4143-8497-6DBD121BE0AE}.Release|x86.Build.0 = Release|Win32
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Debug|x64.ActiveCfg = Debug|x64
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Debug|x64.Build.0 = Debug|x64
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Debug|x86.ActiveCfg = Debug|Win32
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Debug|x86.Build.0 = Debug|Win32
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Release|x64.ActiveCfg = Release|x64
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Release|x64.Build.0 = Release|x64
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Release|x86.ActiveCfg = Release|Win32
+		{6964B1BD-50C2-4DA9-854D-26F025F63E41}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

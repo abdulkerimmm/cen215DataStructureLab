@@ -28,7 +28,7 @@ int hashcode1(int key){
 }
 
 int hashcode2(int key){
-	return 1;
+	return (prime - (key % prime));
 }
 
 void insert(int key, int value)
@@ -48,19 +48,19 @@ void insert(int key, int value)
 		return;
 	}
 
-	/* if data present probe through other array elements */
-	while (0) {
-	
-
-
-
-
-
-
-
-
-
-
+	/* probing through other array elements */
+	while (array[index].flag == 1) {
+		if (array[index].item->key == key){
+			printf("\n Key already present, hence updating its value \n");
+			array[index].item->value = value;
+			return;
+		}
+		index = (index + hash2) % max;
+		if (index == hash1){
+			printf("\n Add is failed \n");
+			return;
+		}
+		printf("\n probing \n");
 
 	}
 
@@ -83,18 +83,18 @@ void remove_element(int key){
 	}
 
 	/* probing through other elements */
-	while (0){
-		
-
-
-
-
-
-
-
-
-
-
+	while (array[index].flag != 0){
+		if (array[index].flag == 1 && array[index].item->key == key){
+			array[index].item = NULL;
+			array[index].flag = 2;
+			size--;
+			printf("\n Key (%d) has been removed \n", key);
+			return;
+		}
+		index = (index + hash2) % max;
+		if (index == hash1){
+			break;
+		}
 	}
 
 	printf("\n Key (%d) does not exist \n", key);

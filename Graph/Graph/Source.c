@@ -63,29 +63,30 @@ void addEdge(struct Graph* graph, int src, int dest)
 	// Add an edge from src to dest. A new node is 
 	// added to the adjacency list of src. The node 
 	// is added at the begining 
-	struct AdjListNode* newNode = newAdjListNode(dest);
-	newNode->next = graph->array[src].head;
-	graph->array[src].head = newNode;
+	
+
+
 
 	// Since graph is undirected, add an edge from 
 	// dest to src also 
-	newNode = newAdjListNode(src);
-	newNode->next = graph->array[dest].head;
-	graph->array[dest].head = newNode;
+	
+
+
 }
 
 // A utility function to print the adjacency list 
 // representation of graph 
 void printGraph(struct Graph* graph)
 {
-	for (int v = 0; v < graph->V; ++v)
+	for (int v = 0; v < /******/; ++v)
 	{
 		struct AdjListNode* pCrawl = graph->array[v].head;
 		printf("\n Adjacency list of vertex %d\n head ", v);
-		while (pCrawl)
+		while (/*****/)
 		{
-			printf("-> %d", pCrawl->dest);
-			pCrawl = pCrawl->next;
+			
+
+
 		}
 		printf("\n");
 	}
